@@ -321,6 +321,97 @@ footer b{color:var(--muted);font-weight:400}
 .pnote{margin-top:10px;font-size:12.5px;color:var(--muted);border-top:1px solid var(--brd);padding-top:10px}
 .pnote input{width:100%;background:var(--glass);border:1px solid var(--brd);border-radius:7px;color:var(--text);padding:6px 9px;font-family:var(--kr);font-size:12.5px}
 @media(max-width:620px){.sumrow{grid-template-columns:1fr 1fr}}
+.home.hidden{display:none}
+.home{max-width:1180px;margin:16px auto 90px;padding:0 24px;display:flex;flex-direction:column;gap:16px}
+.hcard{background:var(--glass);border:1px solid var(--brd);border-radius:18px;padding:20px;backdrop-filter:blur(10px)}
+.hl{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--dim);text-transform:uppercase;margin-bottom:14px}
+.hgrid{display:grid;grid-template-columns:1.1fr 1fr;gap:16px}
+.status .statusrow{display:flex;gap:20px;align-items:center}
+.statusinfo{flex:1;min-width:0}
+.scount{font-family:var(--display);font-weight:700;font-size:26px}
+.scount span{font-size:14px;color:var(--muted);font-family:var(--kr)}
+.missionchips{display:flex;gap:10px;margin:14px 0;flex-wrap:wrap}
+.mch{background:var(--bg2);border:1px solid var(--brd);border-radius:11px;padding:8px 12px;font-family:var(--kr);font-weight:700;font-size:14px;flex:1;min-width:118px}
+.mch span{display:block;font-family:var(--mono);font-size:9px;letter-spacing:.14em;color:var(--dim);margin-bottom:3px}
+.mch.cur{color:var(--cyan)}.mch.nxt{color:var(--muted)}
+.sbtns{display:flex;gap:8px}
+.sbtns button{flex:1;background:var(--glass-2);border:1px solid var(--brd);border-radius:10px;color:var(--text);padding:10px;font-family:var(--kr);font-weight:700;font-size:13px;cursor:pointer}
+.sbtns button:hover{border-color:var(--brd-strong)}
+.topic .topicbig{font-family:var(--kr);font-weight:800;font-size:22px;line-height:1.3;letter-spacing:-.01em;color:#fff}
+.topicedit{width:100%;min-height:70px;background:var(--bg2);border:1px solid var(--brd);border-radius:10px;color:#fff;font-family:var(--kr);font-weight:700;font-size:18px;padding:10px;resize:vertical}
+.topic .topicsub{color:var(--muted);font-size:13.5px;margin:12px 0 14px}
+.topic button{background:linear-gradient(92deg,var(--blue),var(--violet));border:none;border-radius:10px;color:#fff;padding:10px 16px;font-family:var(--kr);font-weight:700;font-size:13px;cursor:pointer}
+.hrow3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.evlist{display:flex;flex-direction:column;gap:9px}
+.ev{display:flex;align-items:center;gap:12px;background:var(--bg2);border:1px solid var(--brd);border-radius:11px;padding:10px 12px}
+.evd{text-align:center;min-width:50px}
+.evd b{display:block;font-family:var(--mono);font-weight:700;font-size:13px;color:var(--text)}
+.evd span{font-family:var(--mono);font-size:9.5px;color:var(--cyan)}
+.evt{flex:1;font-family:var(--kr);font-size:13px;font-weight:600}
+.evtag{font-size:13px}
+.empty{color:var(--dim);font-size:13px;font-family:var(--mono);padding:10px 0}
+.schwrap{margin-top:10px}
+.schedit{display:flex;gap:6px;align-items:center;margin-top:8px}
+.schedit input[type=date]{width:128px;flex:none}
+.schedit input{background:var(--bg2);border:1px solid var(--brd);border-radius:7px;color:var(--text);padding:6px 8px;font-family:var(--mono);font-size:11.5px;flex:1}
+.miniadd{margin-top:10px;background:rgba(84,216,255,.08);border:1px dashed rgba(84,216,255,.4);border-radius:9px;color:var(--cyan);padding:8px;width:100%;font-family:var(--kr);font-size:12.5px;cursor:pointer}
+.morelink{display:inline-block;margin-top:14px;font-family:var(--mono);font-size:11px;color:var(--cyan);letter-spacing:.06em;cursor:pointer}
+.morelink:hover{text-decoration:underline}
+.bestpick{background:var(--bg2);border:1px solid rgba(255,198,75,.3);border-radius:12px;padding:14px;margin-bottom:12px}
+.bp-co{font-family:var(--kr);font-weight:800;font-size:18px}
+.bp-ret{font-family:var(--display);font-weight:700;font-size:26px;margin:2px 0}
+.bp-mem{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.pickmini{display:flex;flex-direction:column;gap:7px}
+.prow{display:flex;align-items:center;gap:10px;font-size:13px}
+.pr-rank{font-family:var(--mono);color:var(--dim);font-size:11px}
+.pr-co{font-family:var(--kr);font-weight:700;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pr-mem{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.pr-ret{font-family:var(--mono);font-weight:700}
+.etfmini{text-align:center;padding:8px 0 4px}
+.em-val{font-family:var(--display);font-weight:700;font-size:24px}
+.em-ret{font-family:var(--display);font-weight:700;font-size:20px;margin-top:4px}
+.em-sub{font-family:var(--mono);font-size:11px;color:var(--muted);margin-top:8px}
+.navtiles{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.ntile{background:var(--glass);border:1px solid var(--brd);border-radius:14px;padding:18px 10px;text-align:center;cursor:pointer;font-family:var(--kr);font-weight:700;font-size:13px;transition:.2s}
+.ntile span{display:block;font-size:24px;margin-bottom:7px}
+.ntile:hover{transform:translateY(-3px);border-color:var(--brd-strong);background:var(--glass-2)}
+.feedlist{display:flex;flex-direction:column;gap:8px}
+.fitem{display:flex;gap:12px;align-items:flex-start;background:var(--bg2);border:1px solid var(--brd);border-radius:11px;padding:11px 13px}
+.ftype{font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.04em;padding:4px 8px;border-radius:7px;white-space:nowrap;flex-shrink:0;margin-top:1px}
+.ftype.rep{background:rgba(155,140,255,.16);color:var(--violet)}
+.ftype.news{background:rgba(84,216,255,.14);color:var(--cyan)}
+.fmain{flex:1;min-width:0}
+.ftitle{font-family:var(--kr);font-weight:700;font-size:14px}
+.ftitle a{color:var(--text);text-decoration:none}.ftitle a:hover{color:var(--cyan)}
+.fmeta{font-family:var(--mono);font-size:10.5px;color:var(--muted);margin-top:3px}
+.feedit{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
+.feedit input{background:var(--bg2);border:1px solid var(--brd);border-radius:7px;color:var(--text);padding:6px 8px;font-family:var(--mono);font-size:11.5px}
+.feedit input[type=date]{width:126px}
+.feedit .fw{flex:1;min-width:150px}
+.ftog{background:var(--glass-2);border:1px solid var(--brd);border-radius:8px;padding:6px 9px;cursor:pointer;font-size:14px}
+.feedadd{margin-bottom:10px}
+.trade{background:var(--bg2);border:1px solid var(--brd);border-radius:12px;padding:13px 14px}
+.tkpis{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+.tkpi{background:var(--glass);border:1px solid var(--brd);border-radius:10px;padding:9px 13px;min-width:130px}
+.tk-l{font-family:var(--mono);font-size:9.5px;letter-spacing:.06em;color:var(--dim);text-transform:uppercase}
+.tk-v{font-family:var(--display);font-weight:700;font-size:17px;margin-top:3px}
+.tk-c{font-family:var(--mono);font-size:11px;font-weight:700}
+.tkedit{display:flex;gap:6px;align-items:center;margin-top:8px;flex-wrap:wrap}
+.tkedit input{background:var(--glass);border:1px solid var(--brd);border-radius:7px;color:var(--text);padding:6px 8px;font-family:var(--mono);font-size:11.5px;flex:1;min-width:80px}
+.tsrc-edit{display:flex;gap:6px;flex-wrap:wrap}
+.tsrc-edit input{background:var(--glass);border:1px solid var(--brd);border-radius:7px;color:var(--text);padding:6px 9px;font-family:var(--mono);font-size:11.5px;flex:1;min-width:150px}
+.tsrc{font-family:var(--kr);font-size:12.5px;color:var(--muted)}
+.tradehint{font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top:12px;letter-spacing:.02em}
+@media(max-width:820px){.hgrid,.hrow3{grid-template-columns:1fr}.navtiles{grid-template-columns:repeat(3,1fr)}}
+.openbadge{font-size:12px;filter:drop-shadow(0 0 4px var(--cyan))}
+.openbadge2{position:absolute;top:9px;left:12px;font-size:13px;filter:drop-shadow(0 0 5px var(--cyan))}
+.delegate{background:rgba(84,216,255,.08);border:1px solid rgba(84,216,255,.3);border-radius:12px;padding:12px 14px;margin:14px 0}
+.dtoggle{display:flex;align-items:center;gap:9px;font-family:var(--kr);font-size:14px;cursor:pointer;flex-wrap:wrap}
+.dtoggle input{width:18px;height:18px;accent-color:var(--cyan);cursor:pointer}
+.dtoggle span{font-size:11.5px;color:var(--muted);font-family:var(--mono);flex-basis:100%;padding-left:27px}
+.opennote{border-radius:11px;padding:11px 14px;margin:14px 0;font-size:13px;font-family:var(--kr)}
+.opennote.open{background:rgba(84,216,255,.08);border:1px solid rgba(84,216,255,.3);color:var(--cyan)}
+.opennote.lock{background:rgba(255,255,255,.03);border:1px solid var(--brd);color:var(--muted)}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important;transition-duration:.001ms!important}}
 </style>
 </head>
@@ -338,8 +429,9 @@ footer b{color:var(--muted);font-weight:400}
   </div></div>
 
   <div class="toolbar">
-    <div class="seg"><button id="vTree" class="on" onclick="setView('tree')">◈ TREE</button><button id="vMap" onclick="setView('map')">🗺 MAP</button><button id="vTime" onclick="setView('timeline')">⏱ 일정</button><button id="vETF" onclick="setView('etf')">📈 ETF</button><button id="vPick" onclick="setView('picks')">⭐ PICK</button></div>
-    <button class="tbtn" id="editBtn" onclick="toggleEdit()">🛠 <span class="k">편집 모드</span></button>
+    <div class="seg"><button id="vHome" class="on" onclick="setView('home')">🏠 HOME</button><button id="vTree" onclick="setView('tree')">◈ TREE</button><button id="vMap" onclick="setView('map')">🗺 MAP</button><button id="vTime" onclick="setView('timeline')">⏱ 일정</button><button id="vETF" onclick="setView('etf')">📈 ETF</button><button id="vPick" onclick="setView('picks')">⭐ PICK</button></div>
+    <button class="tbtn" id="editBtn" onclick="toggleEdit()">🛠 <span class="k">운영자 편집</span></button>
+    <button class="tbtn" id="opBtn" onclick="setOpCode()" style="display:none">🔑 <span class="k">암호</span></button>
     <div class="spacer"></div>
     <button class="tbtn" onclick="doExport()">💾 저장</button>
     <button class="tbtn" onclick="fileInput.click()">📂 불러오기</button>
@@ -352,7 +444,8 @@ footer b{color:var(--muted);font-weight:400}
     <div class="legend"><b><span class="dotc gray"></span>착수</b><b><span class="dotc blue"></span>진행</b><b><span class="dotc green"></span>고지 근접</b><b><span class="dotc gold"></span>정복 완료</b><b><span class="dotc fog"></span>미개척</b></div>
   </div>
 
-  <div class="tree" id="tree"><div class="rail-lit" id="railLit"></div></div>
+  <div class="home hidden" id="home"></div>
+  <div class="tree hidden" id="tree"><div class="rail-lit" id="railLit"></div></div>
   <div class="addnode" id="addNode" style="display:none"><button onclick="addSector()">＋ 새 산업(섹터) 추가</button></div>
 
   <div class="map hidden" id="map">
@@ -388,7 +481,8 @@ const SECTOR_ASSETS  = ["산업분석","Outlook"];                    // 산업(
 function mkCo(name, done=0){ return { name, deadline:"", assets: COMPANY_ASSETS.map((t,i)=>({name:t, done:i<done, url:""})) }; }
 function mkSec(o){ return {
   id:o.id, name:o.name, en:o.en, icon:o.icon, owner:o.owner||"미정", notion:o.notion||"#",
-  updated:o.updated||"—", desc:o.desc||"", links:o.links||[], start:o.start||"", deadline:o.deadline||"",
+  updated:o.updated||"—", desc:o.desc||"", links:o.links||[], start:o.start||"", deadline:o.deadline||"", open:o.open||false,
+  trade:o.trade||{source:"",url:"",kpis:[]},
   sectorAssets: SECTOR_ASSETS.map((t,i)=>({name:t, done:(o.sDone||0)>i, url:""})),
   companies:(o.companies||[]).map(c=> mkCo(c[0], c[1]||0))
 };}
@@ -440,6 +534,31 @@ const SEED_DATES=[
   ["2026-10-19","2026-11-08"],["2026-11-09","2026-11-29"],["2026-11-30","2026-12-20"],
 ];
 SEED.sectors.forEach((s,i)=>{ if(SEED_DATES[i]){ s.start=SEED_DATES[i][0]; s.deadline=SEED_DATES[i][1]; }});
+/* 산업별 편집 위임(open): 기본 잠금, 현재 프론티어(에너지 저장)만 담당자 편집 허용 */
+SEED.sectors.forEach(s=>{ s.open=false; }); if(SEED.sectors[4]) SEED.sectors[4].open=true;
+SEED.meta.opCode="";  // 운영자 암호(비우면 누구나 편집 모드 진입 가능)
+SEED.meta.topic="에너지 저장(ESS) 정복 — 배터리·PCS 밸류체인 심층 분석";
+SEED.schedule=[
+  {date:"2026-07-13", title:"주간 발표 · 삼성SDI 기업분석"},
+  {date:"2026-07-20", title:"정기 모임 · ESS 밸류에이션 토론"},
+  {date:"2026-07-27", title:"전력 변환(PCS) 커버리지 개시"},
+  {date:"2026-08-02", title:"월간 산업 Review · 7월 종합"},
+];
+/* ---- 리서치 피드 (리포트·뉴스) ---- */
+SEED.feed=[
+  {type:"리포트", title:"변압기 슈퍼사이클 — 북미 교체 수요 점검 v1", date:"2026-07-11", author:"제이든", sector:"변전", url:""},
+  {type:"뉴스", title:"美 전력망 투자 확대 — 변압기 리드타임 재차 상승", date:"2026-07-10", author:"스톰", sector:"변전", url:""},
+  {type:"리포트", title:"ESS 밸류체인 정리 v1 (배터리·PCS)", date:"2026-07-09", author:"스톰", sector:"에너지 저장", url:""},
+  {type:"뉴스", title:"AI 데이터센터 전력수요 — 냉각 수혜주 부각", date:"2026-07-08", author:"라이언", sector:"냉각", url:""},
+];
+/* ---- 섹터 수출입 데이터(예시 · 추후 실시간 연동) ---- */
+SEED.sectors[2].trade={source:"무역협회 K-stat · 변압기(HS 8504)", url:"https://stat.kita.net", kpis:[
+  {label:"변압기 수출액(월)", value:"8.2억$", change:"+34% YoY"},
+  {label:"對미 수출 비중", value:"41%", change:"+6%p"},
+]};
+SEED.sectors[1].trade={source:"무역협회 K-stat · 전선/케이블(HS 8544)", url:"https://stat.kita.net", kpis:[
+  {label:"전선 수출액(월)", value:"5.1억$", change:"+12% YoY"},
+]};
 
 /* ---- 전력산업 리서치 ETF (예시 · 앱에서 수정) ---- */
 SEED.etf = {
@@ -471,9 +590,12 @@ SEED.topPicks = [
 /* 저장/불러온 데이터에 새 필드가 없을 수 있으므로 보정 */
 function normalize(st){
   if(!st||!st.sectors) return clone(SEED);
-  if(!st.meta) st.meta=clone(META);
+  if(!st.meta) st.meta=clone(META); st.meta.opCode=st.meta.opCode||""; st.meta.topic=st.meta.topic||"";
+  if(!st.schedule) st.schedule=clone(SEED.schedule||[]);
+  if(!st.feed) st.feed=clone(SEED.feed||[]);
   st.sectors.forEach(s=>{
-    s.links=s.links||[]; s.start=s.start||""; s.deadline=s.deadline||"";
+    s.links=s.links||[]; s.start=s.start||""; s.deadline=s.deadline||""; s.open=s.open||false;
+    s.trade=s.trade||{source:"",url:"",kpis:[]}; s.trade.kpis=s.trade.kpis||[];
     s.sectorAssets=s.sectorAssets||[]; s.companies=s.companies||[];
     s.companies.forEach(c=>{ c.deadline=c.deadline||""; c.assets=c.assets||[]; });
   });
@@ -490,7 +612,7 @@ const $=s=>document.querySelector(s);
 const clone=o=>JSON.parse(JSON.stringify(o));
 const KEY="prometheus_v2";
 let state = normalize(load() || clone(SEED));
-let view="tree", editMode=false;
+let view="tree", editMode=false, opUnlocked=false;
 let modalCtx=null;  // {si, ci|null}
 
 function save(){ try{ localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){} }
@@ -524,7 +646,7 @@ function planStatus(s){ const p=prog(s);
 function refresh(prevFront){
   save();
   renderHUD(); 
-  if(view==="tree") renderTree(); else if(view==="map") renderMap(); else if(view==="timeline") renderTimeline(); else if(view==="etf") renderETF(); else if(view==="picks") renderPicks();
+  if(view==="home") renderHome(); else if(view==="tree") renderTree(); else if(view==="map") renderMap(); else if(view==="timeline") renderTimeline(); else if(view==="etf") renderETF(); else if(view==="picks") renderPicks();
   if(modalCtx) renderModal();
 }
 function renderHUD(){
@@ -551,7 +673,7 @@ function renderTree(){
     row.className=`row ${realSt} ${i%2===0?"left":"right"}`;
     const hubGlyph= (!editMode&&realSt==="locked")?"🔒":s.icon;
     let inner;
-    if(editMode || realSt==="completed" || realSt==="current"){
+    if(editMode || s.open || realSt==="completed" || realSt==="current"){
       const frags=Array.from({length:Math.max(1,s.companies.length)},(_,k)=>{
         const done= s.companies[k]?coDone(s.companies[k]):false;
         return `<div class="f ${done?"on":""}"></div>`;}).join("");
@@ -559,7 +681,7 @@ function renderTree(){
         <button class="delnode" onclick="event.stopPropagation();delSector(${i})">✕</button>
         <div class="top"><div class="ico">${s.icon}</div>
           <div class="names"><div class="n-kr">${esc(s.name)}</div><div class="n-en">${esc(s.en)}</div></div>
-          <div class="tierbadge">${TIERL[tier]}</div></div>
+          ${s.open?'<span class="openbadge" title="담당자 편집 허용">🔓</span>':''}<div class="tierbadge">${TIERL[tier]}</div></div>
         <div class="pbar"><i style="width:${p}%"></i></div>
         <div class="meta"><div class="pct">${p}%</div><div class="who">◈ ${esc(s.owner)} · 기업 ${s.companies.length}</div></div>
         <div class="frag">${frags}</div>
@@ -613,11 +735,11 @@ function renderMap(){
       el.innerHTML=`<div class="inner" data-master="1"><div class="th"><span class="i">🏆</span><div><div class="nm">MASTER</div><div class="en2">Empire Core</div></div></div><div class="en2" style="margin-top:8px;color:${done?"var(--gold)":"#4a5a7c"}">${done?"정복 완료":"모든 산업 정복 시 해금"}</div></div>`;
     } else {
       const {s,i:si}=nd; const st=stateOf(si); const p=prog(s); const tier=tierOf(p);
-      const fog=(!editMode)&&(st==="next"||st==="locked");
+      const fog=(!editMode)&&!s.open&&(st==="next"||st==="locked");
       el.classList.add(tier, st==="completed"?"completed":st==="current"?"current":"");
       if(fog)el.classList.add("fogged");
       el.innerHTML=`<div class="inner" data-i="${si}">
-        <div class="ring">${fog?"":p+"%"}</div>
+        <div class="ring">${fog?"":p+"%"}</div>${(s.open&&!fog)?'<div class="openbadge2" title="담당자 편집 허용">🔓</div>':''}
         <div class="th"><span class="i">${fog&&st==="locked"?"🌫️":s.icon}</span>
           <div><div class="nm">${fog&&st==="locked"?"???":esc(s.name)}</div><div class="en2">${fog&&st==="locked"?"UNCHARTED":esc(s.en)}</div></div></div>
         ${fog?"":`<div class="tb"><i style="width:${p}%"></i></div>`}</div>`;
@@ -700,7 +822,7 @@ function renderTimeline(){
 const scrim=$("#scrim"), modalEl=$("#modal");
 function openSector(i){
   const st=stateOf(i);
-  if(!editMode && st==="locked"){ toast("🌫️ 미개척 영역 — 프론티어를 넓혀 해금하세요"); return; }
+  if(!editMode && !S()[i].open && st==="locked"){ toast("🌫️ 미개척 영역 — 프론티어를 넓혀 해금하세요"); return; }
   modalCtx={si:i, ci:null}; renderModal(); scrim.classList.add("open");
 }
 function openCompany(ci){ modalCtx.ci=ci; renderModal(); }
@@ -720,8 +842,8 @@ function assetRow(a, onToggle, onLink, ro, canDel, onDel){
 function renderModal(){
   const i=modalCtx.si, s=S()[i], st=stateOf(i), p=prog(s), tier=tierOf(p);
   modalEl.style.setProperty("--tc",`var(--${tier})`);
-  const editable = editMode || st==="completed" || st==="current"; // 체크 가능 여부
-  const preview = !editMode && (st==="next"||st==="locked");
+  const editable = editMode || s.open; // 운영자(편집 모드) 또는 위임(🔓)된 산업만 수정 가능
+  const preview = !editable && (st==="next"||st==="locked");
 
   /* ---- company drill-in ---- */
   if(modalCtx.ci!=null){
@@ -758,7 +880,7 @@ function renderModal(){
     ? `<input class="m-ico" style="width:46px;background:transparent;border:1px solid var(--brd);border-radius:8px;text-align:center;color:#fff" value="${esc(s.icon)}" onchange="setField(${i},'icon',this.value)">`
     : `<div class="m-ico">${s.icon}</div>`;
 
-  const meta = editable ? `
+  const meta = !preview ? `
     <div class="m-metaR">
       <div class="m-meta"><div class="l">담당자</div>${editMode?`<input value="${esc(s.owner)}" onchange="setField(${i},'owner',this.value)">`:`<div class="v">◈ ${esc(s.owner)}</div>`}</div>
       <div class="m-meta"><div class="l">기업 수</div><div class="v">${s.companies.length} 개</div></div>
@@ -789,6 +911,27 @@ function renderModal(){
     ? s.links.map((l,li)=>`<a class="lchip" href="${esc(l.url)}" target="_blank" rel="noopener">🔗 ${esc(l.label||"자료")}${editMode?` <span class="del" onclick="event.preventDefault();delLink(${i},${li})">✕</span>`:""}</a>`).join("")
     : `<span style="color:var(--dim);font-size:12.5px;font-family:var(--mono)">등록된 자료 없음</span>`;
 
+  // 권한 위임 배너
+  const delegateBox = editMode
+    ? `<div class="delegate"><label class="dtoggle"><input type="checkbox" ${s.open?"checked":""} onchange="setOpen(${i},this.checked)"> <b>🔓 담당자 편집 허용</b><span>켜면 이 산업을 팀원이 직접 체크·수정할 수 있습니다</span></label></div>`
+    : (s.open ? `<div class="opennote open">🔓 담당자 편집이 열린 산업 — 자유롭게 체크·수정하세요.</div>`
+              : `<div class="opennote lock">🔒 운영자 관리 산업 — 보기 전용입니다.</div>`);
+
+  // 🚢 수출입·수급 데이터
+  const tr = s.trade||{source:"",url:"",kpis:[]};
+  const tradeKpis = tr.kpis.map((k,ki)=> editable
+    ? `<div class="tkedit"><input value="${esc(k.label)}" placeholder="지표명" onchange="tradeKpiF(${i},${ki},'label',this.value)"><input value="${esc(k.value)}" placeholder="값" onchange="tradeKpiF(${i},${ki},'value',this.value)"><input value="${esc(k.change)}" placeholder="증감" onchange="tradeKpiF(${i},${ki},'change',this.value)"><span class="del" onclick="delTradeKpi(${i},${ki})">🗑</span></div>`
+    : `<div class="tkpi"><div class="tk-l">${esc(k.label)}</div><div class="tk-v">${esc(k.value)} <span class="tk-c" style="color:${/[-▼]|감소/.test(k.change)?'#ff6b8a':'var(--green)'}">${esc(k.change)}</span></div></div>`).join("");
+  const tradeSrc = editable
+    ? `<div class="tsrc-edit"><input value="${esc(tr.source)}" placeholder="출처 (예: 무역협회 K-stat · HS 8504)" onchange="setTrade(${i},'source',this.value)"><input value="${esc(tr.url)}" placeholder="출처 링크 URL" onchange="setTrade(${i},'url',this.value)"></div>`
+    : (tr.url?`<a class="lchip" href="${esc(tr.url)}" target="_blank" rel="noopener">🔗 ${esc(tr.source||"데이터 출처")}</a>`:(tr.source?`<span class="tsrc">${esc(tr.source)}</span>`:`<span class="empty">출처 미등록</span>`));
+  const tradeBox = `
+      <div class="sec-t">🚢 수출입·수급 데이터 ${editable?`<span class="add" onclick="addTradeKpi(${i})">＋ 지표</span>`:""}</div>
+      <div class="trade">${tradeSrc}
+        <div class="tkpis">${tradeKpis||`<span class="empty">등록된 지표가 없습니다</span>`}</div>
+        <div class="tradehint">🔄 차차 관세청·무역협회 데이터를 CSV로 자동 연동할 예정입니다.</div>
+      </div>`;
+
   const body = preview ? `
       <div class="locknote"><div class="big">🔭</div>
         <p style="font-size:15px"><b style="color:var(--violet)">${esc(s.name)}</b> · ${esc(s.en)}</p>
@@ -797,9 +940,10 @@ function renderModal(){
       <div class="sec-t">정복 예정 기업</div>
       <div class="co-list">${s.companies.map(c=>`<div class="co" style="cursor:default;opacity:.7"><div class="flag">🏢</div><div><div class="cn">${esc(c.name)}</div></div></div>`).join("")}</div>
     ` : `
-      ${meta}${descBlock}
+      ${meta}${descBlock}${delegateBox}
       <div class="sec-t">관련 자료 · Links ${editMode?`<span class="add" onclick="addLink(${i})">＋ 링크</span>`:""}</div>
       <div class="links">${links}</div>
+      ${tradeBox}
       <div class="sec-t">산업 자산 · Sector Assets ${editMode?`<span class="add" onclick="addSecAsset(${i})">＋ 자산</span>`:""}</div>
       <div class="assets">${sAssets}</div>
       <div class="sec-t">정복 대상 기업 · Companies ${editMode?`<span class="add" onclick="addCompany(${i})">＋ 기업</span>`:""}</div>
@@ -829,6 +973,15 @@ function toggleCo(si,ci,ai){ withMC(si,()=>{ S()[si].companies[ci].assets[ai].do
 function linkSec(si,ai){ const a=S()[si].sectorAssets[ai]; const u=prompt("자료 링크 URL:",a.url||"https://"); if(u!==null){a.url=u.trim();refresh();} }
 function linkCo(si,ci,ai){ const a=S()[si].companies[ci].assets[ai]; const u=prompt("자료 링크 URL:",a.url||"https://"); if(u!==null){a.url=u.trim();refresh();} }
 function setField(si,k,v){ S()[si][k]=v; refresh(); }
+function setOpen(si,v){ S()[si].open=v; save(); refresh(); toast(v?`🔓 '${S()[si].name}' 담당자 편집 허용`:`🔒 '${S()[si].name}' 편집 잠금`); }
+function setTrade(si,k,v){ S()[si].trade[k]=v; save(); }
+function tradeKpiF(si,ki,k,v){ S()[si].trade.kpis[ki][k]=v; save(); renderModal(); }
+function addTradeKpi(si){ S()[si].trade.kpis.push({label:"",value:"",change:""}); save(); renderModal(); }
+function delTradeKpi(si,ki){ S()[si].trade.kpis.splice(ki,1); save(); renderModal(); }
+function feedF(i,k,v){ state.feed[i][k]=v; save(); }
+function toggleFeedType(i){ state.feed[i].type = state.feed[i].type==="리포트"?"뉴스":"리포트"; save(); renderHome(); }
+function addFeed(){ state.feed.unshift({type:"리포트",title:"",date:new Date().toISOString().slice(0,10),author:"",sector:"",url:""}); save(); renderHome(); }
+function delFeed(i){ state.feed.splice(i,1); save(); renderHome(); }
 function setCoDeadline(si,ci,v){ S()[si].companies[ci].deadline=v; refresh(); }
 function addCompany(si){ const n=prompt("기업 이름:"); if(n&&n.trim()){ S()[si].companies.push(mkCo(n.trim(),0)); refresh(); } }
 function delCompany(si,ci){ if(confirm("이 기업을 삭제할까요?")){ S()[si].companies.splice(ci,1); refresh(); } }
@@ -847,19 +1000,33 @@ function addSector(){ const name=prompt("새 산업(섹터) 이름:"); if(!name)
 function delSector(i){ if(confirm(`'${S()[i].name}' 산업을 삭제할까요?`)){ S().splice(i,1); if(modalCtx&&modalCtx.si===i)closeModal(); refresh(); } }
 
 /* ---- view / edit / storage ---- */
+const INTRO={
+  home:{t:"PROJECT PROMETHEUS 지휘 본부 — 정복 현황, 이달의 주제, 다가오는 일정, TOP PICK, ETF를 한눈에.",legend:false},
+  tree:{t:"산업을 하나씩 정복하며 AI Data Center 문명을 완성하는 여정. 기업의 리서치 자산을 체크하면 기업이 정복되고, 산업이 완성되면 다음 지역의 안개가 걷힙니다.",legend:true},
+  map:{t:"AIDC 파워그리드 지도 — 정복한 산업은 빛나는 전력망으로 이어지고, 프론티어 너머는 아직 안개에 싸인 미개척지입니다. 노드를 클릭해 정복하세요.",legend:true},
+  timeline:{t:"캠페인 타임라인 — 각 산업의 시작일과 목표일(🎯) 대비 진행 상황을 한눈에. 세로선이 오늘입니다. 막대를 클릭하면 상세가 열립니다.",legend:true},
+  etf:{t:"전력산업 리서치 ETF — 스터디가 분석한 종목으로 구성한 포트폴리오의 실적을 시계열로 검증합니다. 구글시트(GOOGLEFINANCE) CSV로 시세를 자동 갱신할 수 있습니다.",legend:false},
+  picks:{t:"스터디원별 전력 TOP PICK — 각자 발표한 시점의 주가(발표가)를 기준으로 현재까지의 수익률을 추적합니다. 수익률 순으로 정렬됩니다.",legend:false}
+};
+function applyIntro(v){ const info=INTRO[v]||INTRO.tree; $("#introTxt").textContent=info.t; const lg=document.querySelector(".legend"); if(lg)lg.style.display=info.legend?"":"none"; }
 function setView(v){ view=v;
-  $("#vTree").classList.toggle("on",v==="tree"); $("#vMap").classList.toggle("on",v==="map"); $("#vTime").classList.toggle("on",v==="timeline");
+  $("#vHome").classList.toggle("on",v==="home"); $("#vTree").classList.toggle("on",v==="tree"); $("#vMap").classList.toggle("on",v==="map"); $("#vTime").classList.toggle("on",v==="timeline");
   $("#vETF").classList.toggle("on",v==="etf"); $("#vPick").classList.toggle("on",v==="picks");
+  $("#home").classList.toggle("hidden",v!=="home");
   $("#tree").classList.toggle("hidden",v!=="tree"); $("#addNode").style.display=(v==="tree"&&editMode)?"block":"none";
   $("#map").classList.toggle("hidden",v!=="map");
   $("#timeline").classList.toggle("hidden",v!=="timeline");
   $("#etf").classList.toggle("hidden",v!=="etf");
-  $("#picks").classList.toggle("hidden",v!=="picks"); refresh(); }
-function toggleEdit(){ editMode=!editMode; $("#editBtn").classList.toggle("active",editMode);
-  $("#editBtn").innerHTML= editMode?'✅ <span class="k">편집 종료</span>':'🛠 <span class="k">편집 모드</span>';
+  $("#picks").classList.toggle("hidden",v!=="picks"); applyIntro(v); refresh(); }
+function toggleEdit(){
+  if(!editMode){ const code=state.meta.opCode||""; if(code && !opUnlocked){ const inp=prompt("운영자 암호를 입력하세요:"); if(inp!==code){ toast("암호가 올바르지 않습니다"); return; } opUnlocked=true; } }
+  editMode=!editMode; $("#editBtn").classList.toggle("active",editMode);
+  $("#editBtn").innerHTML= editMode?'✅ <span class="k">편집 종료</span>':'🛠 <span class="k">운영자 편집</span>';
+  $("#opBtn").style.display=editMode?"":"none";
   $("#addNode").style.display=(view==="tree"&&editMode)?"block":"none";
   document.body.classList.toggle("editing",editMode);
-  toast(editMode?"🛠 편집 모드 — 섹터/기업 추가·삭제·수정 가능":"편집을 종료했습니다"); refresh(); }
+  toast(editMode?"🛠 운영자 편집 — 산업별 🔓 위임 · 추가 · 삭제 가능":"편집을 종료했습니다"); refresh(); }
+function setOpCode(){ const c=prompt("운영자 암호 설정 (비우면 해제):", state.meta.opCode||""); if(c===null)return; state.meta.opCode=c; opUnlocked=true; save(); toast(c?"🔑 운영자 암호가 설정되었습니다":"운영자 암호가 해제되었습니다"); }
 function doExport(){ const blob=new Blob([JSON.stringify(state,null,2)],{type:"application/json"});
   const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="prometheus_"+new Date().toISOString().slice(0,10)+".json"; a.click(); toast("💾 JSON으로 내보냈습니다"); }
 $("#fileInput").addEventListener("change",e=>{ const f=e.target.files[0]; if(!f)return; const r=new FileReader();
@@ -1025,8 +1192,117 @@ function addPick(){ const member=prompt("스터디원 이름:"); if(!member)retu
   state.topPicks.push({member:member.trim(),company:company.trim(),code:digits(code),pickDate:new Date().toISOString().slice(0,10),pick:0,cur:0,note:""}); save(); renderPicks(); }
 function delPick(i){ if(confirm("이 Pick을 삭제할까요?")){ state.topPicks.splice(i,1); save(); renderPicks(); } }
 
+/* ============================================================================
+   HOME · 대시보드
+   ============================================================================ */
+const TIERCOLOR={gray:"#64769A",blue:"#3AA0FF",green:"#37F5A0",gold:"#FFC64B"};
+function ringSVG(p){ const r=46,c=2*Math.PI*r,off=c*(1-p/100),col=TIERCOLOR[tierOf(p)];
+  return `<svg viewBox="0 0 120 120" width="116" height="116" style="flex-shrink:0">
+    <circle cx="60" cy="60" r="46" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="11"/>
+    <circle cx="60" cy="60" r="46" fill="none" stroke="${col}" stroke-width="11" stroke-linecap="round" stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${off.toFixed(1)}" transform="rotate(-90 60 60)" style="filter:drop-shadow(0 0 6px ${col})"/>
+    <text x="60" y="57" text-anchor="middle" fill="#fff" font-family="'Chakra Petch',sans-serif" font-weight="700" font-size="27">${p}%</text>
+    <text x="60" y="76" text-anchor="middle" fill="#8A9CC0" font-family="monospace" font-size="8.5" letter-spacing="1.5">CONQUEST</text></svg>`; }
+function upcomingEvents(){ const evs=[];
+  (state.schedule||[]).forEach(e=>{ if(e.date) evs.push({date:e.date,title:e.title,type:"session"}); });
+  S().forEach(s=>{ if(s.deadline && prog(s)<100) evs.push({date:s.deadline,title:`${s.icon} ${s.name} 정복 목표일`,type:"deadline"}); });
+  return evs.filter(e=>ddays(e.date)!=null && ddays(e.date)>=-7).sort((a,b)=>a.date<b.date?-1:1); }
+
+function renderHome(){
+  const tot=S().length, conq=S().filter(s=>prog(s)>=100).length;
+  const overall=tot?Math.round(S().reduce((a,s)=>a+prog(s),0)/tot):0;
+  const c=frontier(), curS=c<tot?S()[c]:null, nextS=c+1<tot?S()[c+1]:null;
+  const topic=state.meta.topic||(curS?`${curS.name} 정복`:"—");
+
+  const evs=upcomingEvents().slice(0,5);
+  const schedRows = evs.length ? evs.map(e=>{ const dd=ddays(e.date);
+    return `<div class="ev"><div class="evd"><b>${e.date.slice(5)}</b><span>${ddLabel(dd)}</span></div>
+      <div class="evt">${esc(e.title)}</div><span class="evtag">${e.type==="deadline"?"🎯":"📌"}</span></div>`;}).join("")
+    : `<div class="empty">등록된 일정이 없습니다</div>`;
+  const schedEdit = editMode ? `<div class="schwrap">`+(state.schedule||[]).map((e,i)=>`<div class="schedit">
+      <input type="date" value="${esc(e.date)}" onchange="schedF(${i},'date',this.value)">
+      <input value="${esc(e.title)}" placeholder="일정 제목" onchange="schedF(${i},'title',this.value)">
+      <span class="del" onclick="delSched(${i})">🗑</span></div>`).join("")+`<button class="miniadd" onclick="addSched()">＋ 일정 추가</button></div>` : "";
+
+  const picks=(state.topPicks||[]).map(t=>Object.assign({},t,{r:(+t.pick>0)?((+t.cur||0)/(+t.pick)-1):0})).sort((a,b)=>b.r-a.r);
+  const best=picks[0];
+  const pickRows = picks.slice(0,3).map((t,i)=>`<div class="prow"><span class="pr-rank">#${i+1}</span><span class="pr-co">${esc(t.company)}</span><span class="pr-mem">${esc(t.member)}</span><span class="pr-ret" style="color:${retColor(t.r)}">${pct(t.r)}</span></div>`).join("") || `<div class="empty">등록된 Pick 없음</div>`;
+
+  const ec=etfCalc();
+
+  const feed=(state.feed||[]).slice().sort((a,b)=>a.date<b.date?1:-1);
+  const feedHTML = editMode
+    ? `<div class="feedadd"><button class="miniadd" onclick="addFeed()">＋ 리포트/뉴스 추가</button></div>`+feed.map((f,i)=>`<div class="feedit">
+        <button class="ftog" onclick="toggleFeedType(${i})" title="유형 전환">${f.type==="리포트"?"📄":"📰"}</button>
+        <input type="date" value="${esc(f.date)}" onchange="feedF(${i},'date',this.value)">
+        <input class="fw" value="${esc(f.title)}" placeholder="제목" onchange="feedF(${i},'title',this.value)">
+        <input value="${esc(f.author)}" placeholder="작성자" style="width:74px" onchange="feedF(${i},'author',this.value)">
+        <input value="${esc(f.sector)}" placeholder="섹터" style="width:74px" onchange="feedF(${i},'sector',this.value)">
+        <input value="${esc(f.url)}" placeholder="링크 URL" onchange="feedF(${i},'url',this.value)">
+        <span class="del" onclick="delFeed(${i})">🗑</span></div>`).join("")
+    : (feed.length? feed.slice(0,6).map(f=>`<div class="fitem">
+        <span class="ftype ${f.type==="리포트"?"rep":"news"}">${f.type==="리포트"?"📄 리포트":"📰 뉴스"}</span>
+        <div class="fmain"><div class="ftitle">${f.url?`<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.title)} ↗</a>`:esc(f.title)}</div>
+          <div class="fmeta">${esc(f.date)}${f.author?` · ◈${esc(f.author)}`:""}${f.sector?` · ${esc(f.sector)}`:""}</div></div></div>`).join("")
+        : `<div class="empty">등록된 리포트·뉴스가 없습니다</div>`);
+
+  $("#home").innerHTML=`
+    <div class="hgrid">
+      <div class="hcard status">
+        <div class="hl">정복 현황 · EMPIRE STATUS</div>
+        <div class="statusrow">${ringSVG(overall)}
+          <div class="statusinfo">
+            <div class="scount">${conq} <span>/ ${tot} 산업 정복</span></div>
+            <div class="missionchips">
+              <div class="mch cur"><span>CURRENT</span>${curS?`${curS.icon} ${esc(curS.name)}`:"🏆 완료"}</div>
+              <div class="mch nxt"><span>NEXT</span>${nextS?`${nextS.icon} ${esc(nextS.name)}`:"MASTER"}</div>
+            </div>
+            <div class="sbtns"><button onclick="setView('map')">🗺 지도</button><button onclick="setView('tree')">◈ 기술트리</button></div>
+          </div></div>
+      </div>
+      <div class="hcard topic">
+        <div class="hl">이달의 스터디 주제 · THIS MONTH</div>
+        ${editMode?`<textarea class="topicedit" onchange="setMeta('topic',this.value)">${esc(state.meta.topic)}</textarea>`:`<div class="topicbig">${esc(topic)}</div>`}
+        ${curS?`<div class="topicsub">${esc(curS.desc)}</div><button onclick="openSector(${c})">현재 정복 산업 열기 →</button>`:""}
+      </div>
+    </div>
+    <div class="hrow3">
+      <div class="hcard">
+        <div class="hl">📅 다가오는 일정 · SCHEDULE</div>
+        <div class="evlist">${schedRows}</div>${schedEdit}
+        <a class="morelink" onclick="setView('timeline')">전체 타임라인 →</a>
+      </div>
+      <div class="hcard">
+        <div class="hl">⭐ TOP PICK 추종</div>
+        ${best?`<div class="bestpick"><div class="bp-co">${esc(best.company)}</div><div class="bp-ret" style="color:${retColor(best.r)}">${pct(best.r)}</div><div class="bp-mem">◈ ${esc(best.member)} 최선호</div></div>`:""}
+        <div class="pickmini">${pickRows}</div>
+        <a class="morelink" onclick="setView('picks')">전체 Pick →</a>
+      </div>
+      <div class="hcard">
+        <div class="hl">📈 리서치 ETF</div>
+        <div class="etfmini"><div class="em-val">${won(ec.total)}</div><div class="em-ret" style="color:${retColor(ec.ret)}">${pct(ec.ret)}</div><div class="em-sub">원금 ${won(state.etf.capital)} · 종목 ${state.etf.holdings.length}개</div></div>
+        <a class="morelink" onclick="setView('etf')">ETF 상세 →</a>
+      </div>
+    </div>
+    <div class="hcard feed">
+      <div class="hl">📰 리서치 피드 · REPORTS & NEWS</div>
+      <div class="feedlist">${feedHTML}</div>
+      <a class="morelink" onclick="setView('timeline')">＊ 리포트·뉴스는 각 산업 상세의 🔗 자료에도 연결됩니다</a>
+    </div>
+    <div class="navtiles">
+      <div class="ntile" onclick="setView('tree')"><span>◈</span>기술트리</div>
+      <div class="ntile" onclick="setView('map')"><span>🗺</span>정복 지도</div>
+      <div class="ntile" onclick="setView('timeline')"><span>⏱</span>일정</div>
+      <div class="ntile" onclick="setView('etf')"><span>📈</span>ETF</div>
+      <div class="ntile" onclick="setView('picks')"><span>⭐</span>TOP PICK</div>
+    </div>`;
+}
+function setMeta(k,v){ state.meta[k]=v; save(); }
+function schedF(i,k,v){ state.schedule[i][k]=v; save(); renderHome(); }
+function addSched(){ state.schedule.push({date:new Date().toISOString().slice(0,10),title:""}); save(); renderHome(); }
+function delSched(i){ state.schedule.splice(i,1); save(); renderHome(); }
+
 /* init */
-renderHUD(); renderTree();
+renderHUD(); setView('home');
 </script>
 </body>
 </html>
